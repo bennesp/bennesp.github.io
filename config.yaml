@@ -1,0 +1,122 @@
+baseURL: "https://bennesp.github.io/"
+title: bennesp
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-189033864-1
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: bennesp
+
+  description: "Bennesp personal site"
+  keywords: [bennesp, blog, devops, cloud, software]
+  author: Me
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2 January 2006"
+  defaultTheme: dark # auto, dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false # ?
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon/favicon-16x16.png"
+    favicon32x32: "/favicon/favicon-32x32.png"
+    apple_touch_icon: "/favicon/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon/apple-touch-icon.png"
+
+  label:
+    text: "bennesp"
+    icon: https://avatars.githubusercontent.com/u/5445545
+    iconHeight: 32
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Learn stuff 👨🏼‍💻"
+    Content: I can't remember things, so I write them down here
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/bennesp"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/benedetto-nespoli/"
+
+#  analytics:
+#    google:
+#      SiteVerificationTag: "v7Xf_l3PpxLV6QMfXaclOrUym7CgrmzJEBFXrAzWnZ4"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+    responsiveImages: true
+    linkFullImages: false
+
+  editPost:
+    URL: "https://github.com/bennesp/bennesp.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # For search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: true
+    style: solarized-dark # see https://xyproto.github.io/splash/docs/all.html
+    tabWidth: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # needed by search
