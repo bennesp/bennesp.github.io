@@ -1,0 +1,20 @@
+/* 
+
+If lineNumbersInTable==false, then ShowCodeCopyButtons==true copies
+also the line number.
+
+If lineNumbersInTable==true, then ShowCodeCopyButtons==true works as expected
+but it is ugly.
+
+This CSS fix that ugliness.
+
+*/
+
+.post-content pre {
+  border-radius: 0px;
+}
+
+
+.highlight > div {
+  background-color: transparent !important;
+}

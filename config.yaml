@@ -110,7 +110,7 @@ markup:
     lineAnchors: ""
     lineNoStart: 1
     lineNos: true
-    lineNumbersInTable: false
+    lineNumbersInTable: true
     noClasses: true
     style: solarized-dark # see https://xyproto.github.io/splash/docs/all.html
     tabWidth: 2
