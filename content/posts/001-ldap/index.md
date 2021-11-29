@@ -13,7 +13,7 @@ tags:
 
 # Snippets
 
-If you search only snippets, go [below](#cli-snippets).
+If you search only snippets, go to [Snippets]({{< ref "/posts/002-ldap" >}}).
 
 # Why LDAP
 
