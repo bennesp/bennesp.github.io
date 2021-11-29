@@ -63,9 +63,9 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/benedetto-nespoli/"
 
-#  analytics:
-#    google:
-#      SiteVerificationTag: "v7Xf_l3PpxLV6QMfXaclOrUym7CgrmzJEBFXrAzWnZ4"
+  analytics:
+    google:
+      SiteVerificationTag: "v7Xf_l3PpxLV6QMfXaclOrUym7CgrmzJEBFXrAzWnZ4"
 
   cover:
     hidden: false # hide everywhere but not in structured data
