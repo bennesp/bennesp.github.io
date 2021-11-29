@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on bennesp</title>
+    <link>https://bennesp.github.io/tags/</link>
+    <description>Recent content in Tags on bennesp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 25 Nov 2021 10:51:48 +0100</lastBuildDate><atom:link href="https://bennesp.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>authentication</title>
+      <link>https://bennesp.github.io/tags/authentication/</link>
+      <pubDate>Thu, 25 Nov 2021 10:51:48 +0100</pubDate>
+      
+      <guid>https://bennesp.github.io/tags/authentication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cli</title>
+      <link>https://bennesp.github.io/tags/cli/</link>
+      <pubDate>Thu, 25 Nov 2021 10:51:48 +0100</pubDate>
+      
+      <guid>https://bennesp.github.io/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ldap</title>
+      <link>https://bennesp.github.io/tags/ldap/</link>
+      <pubDate>Thu, 25 Nov 2021 10:51:48 +0100</pubDate>
+      
+      <guid>https://bennesp.github.io/tags/ldap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>snippet</title>
+      <link>https://bennesp.github.io/tags/snippet/</link>
+      <pubDate>Thu, 25 Nov 2021 10:51:48 +0100</pubDate>
+      
+      <guid>https://bennesp.github.io/tags/snippet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://bennesp.github.io/tags/docker/</link>
+      <pubDate>Wed, 24 Nov 2021 19:08:07 +0100</pubDate>
+      
+      <guid>https://bennesp.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
