@@ -51,6 +51,8 @@ params:
     text: "bennesp"
     icon: /imgs/bennesp.png
     iconHeight: 32
+  
+  hideFooter: true
 
   # home-info mode
   homeInfoParams:
