@@ -2,7 +2,7 @@ baseURL: "https://bennesp.github.io/"
 title: bennesp
 paginatation:
   pagerSize: 5
-theme: PaperMod
+theme: papermod
 
 enableRobotsTXT: true
 buildDrafts: false
