@@ -35,8 +35,8 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: true
-  tocopen: true
+  ShowToc: true
+  TocOpen: true
 
   assets:
     disableHLJS: true
@@ -55,7 +55,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Learn stuff 👨🏼‍💻"
+    Title: "Learning stuff 👨🏼‍💻"
     Content: I can't remember things, so I write them down here
 
   socialIcons:
@@ -117,8 +117,11 @@ markup:
     lineNos: false
     lineNumbersInTable: true
     noClasses: true
-    style: solarized-dark # see https://xyproto.github.io/splash/docs/all.html
+    # Other cool themes: solarized-dark, github-dark, nord.
+    # See https://xyproto.github.io/splash/docs/all.html
+    style: catppuccin-mocha
     tabWidth: 2
+
 
 outputs:
   home:
