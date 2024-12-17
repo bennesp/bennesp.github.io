@@ -1,6 +1,7 @@
 baseURL: "https://bennesp.github.io/"
 title: bennesp
-paginate: 5
+paginatation:
+  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -8,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-189033864-1
+googleAnalytics: G-R4Z9PXP153
 
 minify:
   disableXML: true
@@ -51,7 +52,7 @@ params:
     text: "bennesp"
     icon: /imgs/bennesp.png
     iconHeight: 32
-  
+
   hideFooter: true
 
   # home-info mode
