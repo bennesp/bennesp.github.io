@@ -1,5 +1,9 @@
 # Publish
 
+## Automatically
+
+Merge on `master` and wait for Github Actions
+
 ## Manually
 
 ```

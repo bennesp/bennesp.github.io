@@ -24,9 +24,7 @@ These are the (minimum) steps I followed to migrate my k3s cluster to Cilium dur
 # Steps
 ## Prerequisites
 - A running K3s cluster
-- Administrative access to the cluster nodes
 - The Cilium CLI tool installed
-- A backup of critical data (recommended)
 
 ## 🔌 1. Disable previous CNI
 
@@ -52,6 +50,7 @@ ip link delete flannel.1
 
 ## 📦 3. Install Cilium
 ```sh
+export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
 cilium install --set ipam.operator.clusterPoolIPv4PodCIDRList="10.42.0.0/16"
 cilium status --wait
 ```
