@@ -17,10 +17,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: bennesp
 
   description: "Bennesp personal site"
-  keywords: [bennesp, blog, devops, cloud, software]
+  keywords: [bennesp, bennes, blog, devops, cloud, software]
   author: Me
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2 January 2006"
@@ -29,16 +28,15 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  disableSpecial1stPost: false # ?
   disableScrollToTop: false
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
     disableHLJS: true
@@ -63,6 +61,10 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/bennesp"
+    - name: bluesky
+      url: "https://bsky.app/profile/bennes.bsky.social"
+    - name: mastodon
+      url: "https://k8s.social/@bennes"
     - name: linkedin
       url: "https://www.linkedin.com/in/benedetto-nespoli/"
 
@@ -72,7 +74,7 @@ params:
 
   cover:
     hidden: false # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
+    hiddenInList: false # hide on list pages and home
     hiddenInSingle: true # hide on single page
     responsiveImages: true
     linkFullImages: false
