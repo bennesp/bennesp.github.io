@@ -1,7 +1,7 @@
 ---
 title: "LDAP Setup"
 date: 2021-11-24T19:08:07+01:00
-summary: Why, what and how LDAP 
+summary: Why, what and how LDAP
 cover:
   image: imgs/cover.png
 slug: ldap-setup
@@ -13,7 +13,7 @@ tags:
 
 # Snippets
 
-If you search only snippets, go to [Snippets]({{< ref "/posts/002-ldap" >}}).
+If you search only snippets, go to [Snippets]({{< ref "/posts/002-ldap-snippets" >}}).
 
 # Why LDAP
 
