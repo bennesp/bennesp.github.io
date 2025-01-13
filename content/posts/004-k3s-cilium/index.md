@@ -10,6 +10,7 @@ tags:
   - cilium
   - cni
   - networking
+  - observability
 ---
 
 Suppose you have a running k3s cluster and would like to explore Cilium.
