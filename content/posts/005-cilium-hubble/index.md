@@ -4,7 +4,6 @@ date: 2024-12-18T18:45:12+01:00
 cover:
   image: imgs/cover.png
 summary: Some neat features of Hubble, leveraged by Cilium
-draft: true
 tags:
   - kubernetes
   - cilium
