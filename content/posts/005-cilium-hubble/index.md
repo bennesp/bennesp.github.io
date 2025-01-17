@@ -144,6 +144,15 @@ spec:
         - ports:
             - port: "5432"
               protocol: TCP
+    # Allow all traffic going to ML microservices
+    - toEndpoints:
+        - matchLabels:
+            app.kubernetes.io/name: machine-learning
+            io.kubernetes.pod.namespace: immich
+      toPorts:
+        - ports:
+            - port: "3003"
+              protocol: TCP
 ```
 
 **Note**: the highlighted lines are the ones that enable L7 visibility for the specified ports.
