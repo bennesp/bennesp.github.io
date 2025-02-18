@@ -11,6 +11,8 @@ buildExpired: false
 
 googleAnalytics: G-R4Z9PXP153
 
+sitemap:
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -121,7 +123,6 @@ markup:
     # See https://xyproto.github.io/splash/docs/all.html
     style: catppuccin-mocha
     tabWidth: 2
-
 
 outputs:
   home:
