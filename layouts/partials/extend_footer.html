@@ -2,7 +2,14 @@
   © 2024 <a href={{.Site.BaseURL}}>bennesp</a>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js" integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+{{ if .Store.Get "hasMermaid" }}
+  <script type="module">
+    import mermaid from '//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+{{ end }}
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.1.0/medium-zoom.min.js" integrity="sha512-9ZKhgaFdKlsELap/dGw3Iaz5Bj+Las0XXZiRKYZaN9QArg6FtkD5rULNmNH4rTCTFxjPiBGr3MX8smRADRorDA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script>
 const images = Array.from(document.querySelectorAll(".post-content img"));
@@ -17,8 +24,7 @@ images.forEach(img => {
 });
 </script>
 
+<!-- //ionic.io/ionicons -->
 
-<!-- https://ionic.io/ionicons -->
-
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="module" src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
