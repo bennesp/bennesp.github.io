@@ -99,7 +99,7 @@ Then, I just added some normalization to help me with the playground. The thrott
 
 ![GNU Radio flowgraph to normalize the signal](imgs/gnuradio-2-normalization.png)
 
-Then,
+Then, I centered the signal around 0 and applied a low-pass filter to remove the noise:
 
 ![GNU Radio flowgraph to filter the signal](imgs/gnuradio-3-filtering.png)
 
