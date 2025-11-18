@@ -13,11 +13,11 @@ tags:
 ---
 
 {{<alert info>}} ℹ️ Every snippet that uses a file can be onelined using cat, like:
-  {{<highlight sh>}}
+  ```sh
   cat << EOF | ldapcommand
   ldif file content here
   EOF
-{{</highlight>}}
+```
 {{</alert>}}
 
 # Commands
